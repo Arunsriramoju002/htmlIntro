@@ -15,6 +15,11 @@
 
 .offer button{
     background: red;
+    border: none;
+}
+.offer h1{
+    margin-left: 250px;
+    
 }
 
 .navbar{
@@ -26,7 +31,30 @@
 }
 .navbar .navList
 {
-    block-size: 0px;
-    display: inline;
-    color: red;
+ 
 }
+.navbar .navList ul
+
+{   
+    display: flex;
+    color: white;
+    padding: 5px;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin-left: 50cap;
+    padding: 15px 15px;
+    
+}
+.navList li a{
+text-decoration: none;
+color: white;
+
+}
+html,body{
+    margin: 0;
+    padding: 0;
+
+}
+
+
